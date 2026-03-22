@@ -4,8 +4,8 @@ export const API_LOGIN = "api/auth/login";
 // routes article
 export const API_PRESIGNED = "/file/presigned-url";
 export const API_PRESIGN_URL = "/file/presigned-url";
-export const API_MERCHANT_PROFILE = "/merchant/profile";
-export const API_MERCHANT_POLICIES = "/merchant/profile";
+export const API_MERCHANT_PROFILE = "api/auth/profile";
+export const API_MERCHANT_POLICIES = "api/auth/profile";
 export const API_TEST = "/merchant/profile";
 
 export const API_MERCHANT_FORGOTPASSWORD = "/merchat/forgot-password";
