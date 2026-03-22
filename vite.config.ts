@@ -10,6 +10,9 @@ export default defineConfig({
       src: path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    allowedHosts: ["admin-tracker-expense-production.up.railway.app"],
+  },
   preview: {
     host: true,
     port: 4173,
