@@ -13,6 +13,6 @@ export default defineConfig({
   preview: {
     host: true,
     port: 4173,
-    allowedHosts: ["admin-dev.mandala.tesoglobal.com"],
+    allowedHosts: ["admin-tracker-expense-production.up.railway.app"],
   },
 });
