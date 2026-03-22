@@ -13,6 +13,5 @@ export default defineConfig({
   preview: {
     host: true,
     port: 4173,
-    allowedHosts: ["admin-tracker-expense-production.up.railway.app"],
   },
 });
